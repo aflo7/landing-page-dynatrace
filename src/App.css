@@ -51,6 +51,10 @@ main > div {
   background-position: center;
 }
 
+button {
+  font-size: 1.2rem;
+}
+
 .request-demo-btn {
   padding: 10px 30px;
   border-radius: 5px;
@@ -64,6 +68,7 @@ main > div {
   border-radius: 5px;
   border: 2px solid white;
   background-color: white;
+
 }
 
 .free-trial-btn:hover {

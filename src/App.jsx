@@ -10,7 +10,7 @@ const App = () => {
         <main>
           <nav>
             <div className="left-nav-wrapper">
-              <h1>dynatrace</h1>
+              <h1>LOGO</h1>
               <div className="left-nav">
                 <p>
                   Mock <FaAngleDown />
@@ -34,7 +34,9 @@ const App = () => {
               </p>
               <p>Mock</p>
               <FaSearch />
-              <button className="free-trial-btn">Mock button</button>
+              <button className="free-trial-btn" style={{ fontSize: '1rem' }}>
+                Mock button
+              </button>
             </div>
           </nav>
 
