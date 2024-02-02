@@ -35,7 +35,7 @@ main > div > div {
   text-align: justify;
 }
 h2 {
-  font-size: 2.8rem;
+  font-size: 2rem;
 }
 
 main > div {
@@ -102,6 +102,10 @@ main {
 }
 
 @media screen and (min-width: 1000px) {
+  h2 {
+    font-size: 2.8rem;
+  }
+  
   .left-nav-wrapper {
     display: flex;
     align-items: center;
@@ -131,11 +135,11 @@ main {
     padding-top: 40px;
   }
   main > div > div:nth-child(2) {
-    height: 700px;
+    height: 800px;
   }
 
   .dashboard-homepage {
-    height: 700px;
+    height: 800px;
     position: absolute;
   }
   main > div {
