@@ -1,0 +1,148 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 20px; */
+}
+
+.dashboard-homepage {
+  /* width: 100%; */
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  padding-bottom: 300px;
+}
+
+h1,
+h2,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+main > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.mock-paragraph {
+  font-size: 1.4rem;
+  text-align: justify;
+}
+h2 {
+  font-size: 2.8rem;
+}
+
+main > div {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.main-wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(https://mkt-cdn.dynatrace.com/assets/Marketing/section-backgrounds/_1366x593_crop_center-center_100_line/wave-2023-01-full-green.jpg.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.request-demo-btn {
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.free-trial-btn {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: white;
+}
+
+.free-trial-btn:hover {
+  background-color: lightgray;
+  border: 2px solid lightgray;
+}
+
+.request-demo-btn:hover {
+  background-color: white;
+  color: black;
+
+}
+
+.button-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+main {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.right-nav,
+.left-nav {
+  display: none;
+}
+
+@media screen and (min-width: 1000px) {
+  .left-nav-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .left-nav > p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .right-nav > p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .right-nav,
+  .left-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  main > div > div:nth-child(1) {
+    flex-shrink: 0;
+    flex-basis: 50%;
+    padding-top: 40px;
+  }
+  main > div > div:nth-child(2) {
+    height: 700px;
+  }
+
+  .dashboard-homepage {
+    height: 700px;
+    position: absolute;
+  }
+  main > div {
+    flex-direction: row;
+    gap: 0px;
+  }
+
+  main {
+    padding-bottom: 20px;
+  }
+
+  .gi-hamburger-menu {
+    display: none;
+  }
+}

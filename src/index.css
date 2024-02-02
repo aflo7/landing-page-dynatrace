@@ -1,0 +1,9 @@
+body {
+  color: white;
+  margin: 0 auto;
+  font-family: BerninaSans,-apple-system,Roboto,Helvetica,Arial,sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
