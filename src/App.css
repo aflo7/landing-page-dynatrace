@@ -2,11 +2,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 20px; */
-}
-
-.dashboard-homepage {
-  /* width: 100%; */
 }
 
 main {
