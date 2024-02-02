@@ -131,6 +131,7 @@ main {
     flex-shrink: 0;
     flex-basis: 50%;
     padding-top: 40px;
+    padding-right: 100px;
   }
   main > div > div:nth-child(2) {
     height: 650px;
